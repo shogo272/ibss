@@ -34,7 +34,7 @@ if (isset($_POST["login"])) {
             $stmt = $pdo -> prepare($sql);//SQLを実行するための準備
             $stmt -> execute(array($_POST["userid"]));// SQLを実行
             $row = $stmt -> fetch(PDO::FETCH_ASSOC);
-            if (password_verify ($_POST['password'] , $row['password']) === true){
+            if (password_verify ($_POST['password'] , $row['password']) == true){
                     $_SESSION['login'] = 1;
                     header("Location: toppage.php");  // TOP画面へ遷移
                     exit();  // 処理終了
