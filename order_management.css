@@ -1,0 +1,90 @@
+/* 見出し(0121追加) */
+h2{
+  /* 線の種類 */
+  border-bottom: double 5px #ffc778; /* 二重線 太さ 色 */
+}
+
+/*----------------------------------------------*/
+
+/* テーブル全体 */
+.table_order_management table{
+  width: 80%; /* 画面最大幅の80%で表示 */
+  text-align: center; /* テーブル内のテキストを中央寄せ */
+  border-collapse: collapse; /* セル同士の枠線を重ねる */
+  overflow: auto; /* 画面をはみ出す場合はスクロールバーを表示 */
+  white-space: nowrap; /* テーブル内の文字を改行しない */
+}
+
+/* スクロールバー */
+.table_order_management::-webkit-scrollbar{
+  height: 5px; /* スクロールバーの太さ */
+}
+
+.table_order_management::-webkit-scrollbar-track{
+  background: #f1f1f1; /* スクロールバーの背景色 */
+}
+
+.table_order_management::-webkit-scrollbar-thumb{
+  background: #8e8e8e; /* スクロールバーのカラー */
+  border-radius: 4px; /* スクロールバーの角に丸みをつける */
+}
+
+/* 見出しセル */
+.table_order_management th{
+  background: #f7f7f7!important; /* 背景カラー */
+  font-size: 60px; /* フォントサイズ */
+  padding: 10px; /* 内側余白調整 */
+  border: solid 1px #e8e8e8; /* 見出し周りのボーダー線 */
+}
+
+/* 見出し以外のセル */
+.table_order_management td{
+  font-size: 40px; /* フォントサイズ */
+  padding: 10px; /* 内側余白調整 */
+  border: solid 1px #e0e0e0; /* セルの枠線 */
+
+}
+
+/* 行の枠線 */
+.table_order_management tr{
+  border: solid 2px #e8e8e8; /* セルの枠線 */
+}
+
+/* マウスオーバー時の行の設定 */
+.table_order_management tr:hover{
+  background: #a3ffa3; /* 背景カラー */
+}
+
+.btn{
+  margin-left: 10px;
+  position: relative;
+  max-width: 400px;
+  background-color: #668AD8;
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none!important;
+  padding: 1em 3em;
+  border-bottom: solid 5px #627295;
+  border-radius: 4px;
+}
+
+.btn:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.chekbox{
+  transform:scale(3);/*チェックボックスのサイズ*/
+}
+
+body{
+  margin-left: 5%;
+  font-size: 60px;
+  background-color:#E0FFFF;
+  /*
+  AEFFBD
+  CBFFD3
+  CCFF99
+  */
+}

@@ -1,0 +1,83 @@
+
+/*ボタンのプロパティ*/
+.btn{
+  margin: 50px 20px;/*要素間の間隔*/
+  font-size: 25px;/*文字サイズ*/
+  display: inline-block;/*パディングの重複対策*/
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668AD8;/*ボタン色*/
+  color: #FFF;/*文字色*/
+  border-bottom: solid 4px #627295;/*ボタンの影*/
+  border-radius: 3px;
+  /*ボタンサイズ*/
+  height: 60px;
+  width: 200px;
+}
+
+.btn:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+/*定義リストの設定*/
+/*定義語欄の設定*/
+form dl dt{
+  width: 250px;
+  padding:5px 0;
+  float:left;
+  clear:both;
+  font-size: 30px;
+}
+/*定義説明欄の設定*/
+form dl dd{
+  font-size: 30px;
+  padding:5px 0;
+}
+
+/*表の設定*/
+/*基本設定*/
+table{
+  width: 85%;
+  border-collapse: collapse;
+}
+/*見出しの設定*/
+table tr{
+  text-align: center;
+  background-color: #FFFFFF;
+  font-size: 80px;
+}
+/*内容の設定*/
+table th{
+  font-size:50px;
+  background-color: #000080;
+  color: #FFFFFF;
+}
+
+/*ラジオボタンのプロパティ*/
+.bx{
+  font-size: 30px;
+  height: 50px;
+}
+
+/*PHP文内にある文字の文字サイズ*/
+p.size{
+  font-size: 35px;
+}
+
+/*チェックボックスの設定*/
+.chekbox{
+  transform:scale(3);/*チェックボックスのサイズ*/
+}
+
+/*全体の設定*/
+body{
+  margin-left: 20%;
+  font-size: 20px;
+  background-color:#CCCCFF;
+/*  #99CCCC;
+     99CCFF
+*/
+}

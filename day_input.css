@@ -1,0 +1,58 @@
+input, button, textarea, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668AD8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  font-size: 18px;
+  width: 120px;
+  height: 80px;
+  }
+.btn:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.size{
+  width: 270px;
+  height: 40px;
+  font-size: 19px;
+}
+#btnL{
+  float: left;
+}
+#btnR{
+  float: right;
+  margin-right: 100px
+}
+table{
+
+  width: 85%;
+  border-collapse: collapse;
+}
+table tr{
+  text-align: center;
+  background-color: #FFFFFF;
+  font-size: 75px;
+}
+table th{
+  font-size:45px;
+  background-color: #000080;
+  color: #FFFFFF;
+}
+body{
+  background-color:#F5FFFA;
+  max-width: 40em;
+  position: relative;
+  right: -30%;
+  top: 20em;
+  transform: scale(1.5);
+}
