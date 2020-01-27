@@ -85,6 +85,10 @@ input, button, textarea, select {
   border-bottom: none;/*線を消す*/
 }
 
+button[type="submit"] {
+padding: 0px;
+}
+
 table{
   width: 85%;
   border-collapse: collapse;
